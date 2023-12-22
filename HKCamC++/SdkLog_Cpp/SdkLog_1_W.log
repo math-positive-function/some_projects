@@ -1,0 +1,37 @@
+[2023-11-28 16:02:31.893][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[/home/daxian/Desktop/test/./libz.so], hHandleRet[533028816]
+[2023-11-28 16:02:31.893][INF] The COM:HCCoreBase ver is 6.1.4.15, 2020_03_05. Async:1.
+[2023-11-28 16:02:31.893][INF] The COM:Core ver is 6.1.9.48, 2023_04_10. Async:1.
+[2023-11-28 16:02:31.893][INF] This HCNetSDK ver is 6.1.9.48 Ver 2023_04_10.
+[2023-11-28 16:02:31.893][INF] Login dev 36.153.142.114:18800.
+[2023-11-28 16:02:31.893][INF] dwTotalNum[2048]
+[2023-11-28 16:02:31.992][INF] Private connect 36.153.142.114:18800 sock=131 this=0x1fc6dfc4 cmd=0x10000 port=36876
+[2023-11-28 16:02:31.992][INF] LogonDev1 in[36.153.142.114:18800]
+[2023-11-28 16:02:31.993][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[/home/daxian/Desktop/test/libcrypto.so.1.1], hHandleRet[533167696]
+[2023-11-28 16:02:31.994][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[/home/daxian/Desktop/test/libssl.so.1.1], hHandleRet[533169504]
+[2023-11-28 16:02:31.994][INF] SSLTRANSAPI::LoadAPI, libeay, Load Real Path[/home/daxian/Desktop/test/libcrypto.so.1.1]
+[2023-11-28 16:02:31.994][INF] SSLTRANSAPI::IsAllAPILoaded, SSL_library_init Unload
+[2023-11-28 16:02:31.994][INF] OpenSSL, Not All Function Loaded!
+[2023-11-28 16:02:31.994][INF] SSLTRANSAPI::PrintVersion, OpenSSL version info [OpenSSL 1.1.1l  24 Aug 2021]
+[2023-11-28 16:02:31.994][INF] CSSLTrans::SSLCtxInit, dwSSLVersion[6], m_fnTLSServerMethod
+[2023-11-28 16:02:31.994][ERR] CSSLTrans::SSLTrans_CTX_Load_CA, invalid path[/home/daxian/Desktop/test/./cert/\]
+[2023-11-28 16:02:32.274][DBG] CComBase::Load, Load szDllPath[/home/daxian/Desktop/test/HCNetSDKCom/libHCVoiceTalk.so] SUCC
+[2023-11-28 16:02:32.274][INF] AbilityAnalyze---Init-- start
+[2023-11-28 16:02:32.274][DBG] AbilityAnalyze---Init-- over, DeviceList path [/home/daxian/Desktop/test/HCNetSDKCom/LocalXml/DeviceList.xml], load result[0]
+[2023-11-28 16:02:32.274][INF] The COM:VoiceTalk ver is 6.1.9.48, 2023_04_10.
+[2023-11-28 16:02:32.276][DBG] CComBase::Load, Load szDllPath[/home/daxian/Desktop/test/HCNetSDKCom/libHCGeneralCfgMgr.so] SUCC
+[2023-11-28 16:02:32.276][INF] The COM:HCGeneralCfgMgr ver is 6.1.9.48, 2023_04_10.
+[2023-11-28 16:02:32.277][DBG] CComBase::Load, Load szDllPath[/home/daxian/Desktop/test/HCNetSDKCom/libHCPlayBack.so] SUCC
+[2023-11-28 16:02:32.277][INF] The COM:HCPlayback ver is 6.1.9.48, 2023_04_10.
+[2023-11-28 16:02:32.278][DBG] CComBase::Load, Load szDllPath[/home/daxian/Desktop/test/HCNetSDKCom/libHCIndustry.so] SUCC
+[2023-11-28 16:02:32.278][INF] The COM:HCIndustry ver is 6.1.9.48, 2023_04_10.
+[2023-11-28 16:02:32.279][DBG] CComBase::Load, Load szDllPath[/home/daxian/Desktop/test/HCNetSDKCom/libHCDisplay.so] SUCC
+[2023-11-28 16:02:32.280][INF] The COM:HCDisplay ver is 6.1.9.48, 2023_04_10.
+[2023-11-28 16:02:32.280][DBG] CComBase::Load, Load szDllPath[/home/daxian/Desktop/test/HCNetSDKCom/libHCPreview.so] SUCC
+[2023-11-28 16:02:32.280][INF] The COM:Preview ver is 6.1.9.48, 2023_04_10.
+[2023-11-28 16:02:32.281][DBG] CComBase::Load, Load szDllPath[/home/daxian/Desktop/test/HCNetSDKCom/libHCAlarm.so] SUCC
+[2023-11-28 16:02:32.281][INF] The COM:HCAlarm ver is 6.1.9.48, 2023_04_10.
+[2023-11-28 16:02:32.316][INF] Private connect 36.153.142.114:18800 sock=131 this=0x1fc6dfc4 cmd=0x117000 port=36888
+[2023-11-28 16:02:32.369][DBG] SimpleSTDCommandToDvr with out cmd[3711], ret size[1100], max segment length[160]
+[2023-11-28 16:02:32.370][ERR] find node minHorizontalValue failed
+[2023-11-28 16:02:32.370][ERR] find node maxHorizontalValue failed
+[2023-11-28 16:02:32.370][ERR] find node absoluteHighExEnable failed
